@@ -134,7 +134,8 @@ public class panel extends  JPanel implements ActionListener {
 
 //
           b13 = new JButton("*");
-        b13.setBounds(20,240,70,30);b13.setForeground(Color.red);
+        b13.setBounds(20,240,70,30);
+        b13.setForeground(Color.red);
         this.add(b13);
         b13.setFont(f);
         b13.setBackground(Color.black);
@@ -149,7 +150,8 @@ public class panel extends  JPanel implements ActionListener {
 
 //
           b15= new JButton("/");
-        b15.setBounds(180,240,70,30);b15.setForeground(Color.red);
+        b15.setBounds(180,240,70,30);
+        b15.setForeground(Color.red);
         this.add(b15);
         b15.setFont(f);
         b15.setBackground(Color.black);
@@ -170,7 +172,8 @@ public class panel extends  JPanel implements ActionListener {
         this.add(b17);
         b17.setFont(f);
         b17.addActionListener(this);
-        b17.setBackground(Color.darkGray);b17.setForeground(Color.red);
+        b17.setBackground(Color.darkGray);
+        b17.setForeground(Color.red);
 
 //
 
